@@ -1,0 +1,23 @@
+
+/* sheard style and common classes  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+
+
+      /* main desigen start  */
+      .box-container {
+        background-color: aliceblue;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr) ;
+
+      } 
